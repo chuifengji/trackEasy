@@ -1,6 +1,6 @@
 # TrackEasy
 
-A declarative front-end monitoring buried-point frame (toy)
+A declarative front-end monitoring buried-point plug-in (toy)
 
 ## How to use it
 

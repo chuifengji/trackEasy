@@ -16,13 +16,14 @@ npm install trackeasy(not yet released!)
 ```js
 import trackEasy from "trackeasy"
 
-let Track = new trackEasy()
-
-Track.configuration = {
+const configuration = {
     useHighlight: false,
     useErrorWatcher: false,
     cacheLen: 10,
 }
+
+let Track = new trackEasy(configuration)
+
 
 Track.use([transformData,transportData])
 

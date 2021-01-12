@@ -28,8 +28,8 @@ let transformData = (data) => { data };
 
 let transportData = (data) => {
     fetch("https://example.com/", {
-        method: 'POST', // or 'PUT'
-        body: JSON.stringify(data), // data can be `string` or {object}!
+        method: 'POST', 
+        body: JSON.stringify(data), 
         headers: new Headers({
             'Content-Type': 'application/json'
         })

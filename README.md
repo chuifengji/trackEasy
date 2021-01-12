@@ -24,6 +24,17 @@ const configuration = {
 
 let Track = new trackEasy(configuration)
 
+let transformData = (data) => { data };
+
+let transportData = (data) => {
+    fetch("https://example.com/", {
+        method: 'POST', // or 'PUT'
+        body: JSON.stringify(data), // data can be `string` or {object}!
+        headers: new Headers({
+            'Content-Type': 'application/json'
+        })
+    }).then(res => res.json())
+}
 
 Track.use([transformData,transportData])
 

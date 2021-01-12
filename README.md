@@ -9,7 +9,7 @@ npm install trackeasy(not yet released!)
 
 ```html
 
-<button data-trackEasy="{'type':click}" >Click</button>
+<button data-trackEasy="{'type':'click'}" >Click</button>
 
 ````
 

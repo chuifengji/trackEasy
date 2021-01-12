@@ -1,0 +1,19 @@
+{
+  "name": "trackeasy",
+  "version": "0.0.1",
+  "description": "an easy-to-use web site monitoring library",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "EthanLv",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-replace": "^2.3.4",
+    "jest": "^26.6.3",
+    "rollup": "^2.36.1",
+    "rollup-plugin-typescript2": "^0.29.0",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {}
+}
